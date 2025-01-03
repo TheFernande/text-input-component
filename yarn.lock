@@ -3629,29 +3629,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"starter@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "starter@workspace:."
-  dependencies:
-    "@formkit/auto-animate": "npm:^0.8.2"
-    "@types/node": "npm:^20.17.9"
-    "@types/react": "npm:^18.3.12"
-    "@types/react-dom": "npm:^18.3.1"
-    autoprefixer: "npm:^10.4.16"
-    eslint: "npm:^8.57.1"
-    eslint-config-next: "npm:^15.0.3"
-    lucide-react: "npm:^0.464.0"
-    next: "npm:14.2.20"
-    postcss: "npm:^8.4.49"
-    prettier: "npm:^3.4.2"
-    prettier-plugin-tailwindcss: "npm:^0.6.9"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    tailwindcss: "npm:^3.4.1"
-    typescript: "npm:^5.7.2"
-  languageName: unknown
-  linkType: soft
-
 "streamsearch@npm:^1.1.0":
   version: 1.1.0
   resolution: "streamsearch@npm:1.1.0"
@@ -3891,6 +3868,29 @@ __metadata:
   checksum: d4679609bb2a9b48eeaf84632b6d844128d2412b95b6de07d53d8ee8baf4ca0857c9331dfa510390a0727b550fd543d4d1a10995ad86cdf078423fbb8d99831d
   languageName: node
   linkType: hard
+
+"text-input-component@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "text-input-component@workspace:."
+  dependencies:
+    "@formkit/auto-animate": "npm:^0.8.2"
+    "@types/node": "npm:^20.17.9"
+    "@types/react": "npm:^18.3.12"
+    "@types/react-dom": "npm:^18.3.1"
+    autoprefixer: "npm:^10.4.16"
+    eslint: "npm:^8.57.1"
+    eslint-config-next: "npm:^15.0.3"
+    lucide-react: "npm:^0.464.0"
+    next: "npm:14.2.20"
+    postcss: "npm:^8.4.49"
+    prettier: "npm:^3.4.2"
+    prettier-plugin-tailwindcss: "npm:^0.6.9"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    tailwindcss: "npm:^3.4.1"
+    typescript: "npm:^5.7.2"
+  languageName: unknown
+  linkType: soft
 
 "text-table@npm:^0.2.0":
   version: 0.2.0

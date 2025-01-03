@@ -1,10 +1,21 @@
-import HelloWorld from "@/components/hello-world";
+import TextInput from "@/components/text-input";
+
+import { textInputVariants } from "./input.data";
 
 export default function Home() {
   return (
-    // `<main>` -> this is the "Page body" element in the Figma design
     <main className='gfe-main'>
-      <HelloWorld />
+      <div className='gfe-container'>
+        {textInputVariants.map(input => (
+          <TextInput
+            key={input.id}
+            withIconLeft={input.withIconLeft}
+            isDisabled={input.isDisabled}
+            isValid={input.isValid}
+            {...input}
+          />
+        ))}
+      </div>
     </main>
   );
 }

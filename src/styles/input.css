@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .inputEnabled {
+    @apply flex flex-row items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3.5 py-2.5;
+  }
+
+  .inputDisabled {
+    @apply flex cursor-not-allowed flex-row items-center justify-between rounded border border-neutral-100 bg-neutral-50 px-3.5 py-2.5;
+  }
+}

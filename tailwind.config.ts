@@ -5,6 +5,7 @@ export default {
   theme: {
     extend: {
       screens: {
+        mobileGfe: { min: "370px", max: "375px" },
         lg: "1440px" // Desktop
         // => @media (min-width: 1440px) { ... }
       },

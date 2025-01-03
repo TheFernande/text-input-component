@@ -1,7 +1,7 @@
 {
-  "name": "starter",
+  "name": "text-input-component",
   "version": "0.1.0",
-  "description": "A starter project for Next.js with Tailwind CSS",
+  "description": "A text input component exercise",
   "private": true,
   "author": "Jade Hernandez",
   "license": "ISC",
