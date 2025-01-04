@@ -74,3 +74,14 @@ git push --set-upstream origin main
 ```bash
 Cmd + Shift + P -> Reload Window
 ```
+
+##
+
+The component was built using Next.js for the framework, TypeScript for type safety, and Tailwind CSS for styling. The approach focused on creating a reusable and accessible input component that supports multiple variants through props. Key features include:
+
+Typescript interfaces for strong typing and prop validation
+Tailwind CSS for consistent styling and responsive design
+Accessibility features including ARIA labels and proper tab indices
+Support for left icons, disabled states, and error handling
+Extensible design through React props spreading
+Component variants defined through a separate data file for easy maintenance
